@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //print 1-10 numbers in alert
+        // TASK - 1
+        // FOR LOOP
+        for(var i=0; i<=10; i++){
+            alert(i);
+        }
+
+        // WHILE LOOP
+        var i=0;
+        while(i<=10){
+            alert(i)
+            i++;
+        }
+
+        // DO WHILE LOOP
+        var i=0;
+        do{
+            alert(i);
+            i++;
+        }
+        while(i<=10);
+
+        // TASK - 2
+        // PRINT 3,6,9 WITHOUT USING IF CONDITION
+        for(var i=3; i<=10; i+=3){
+            alert(i);
+        }
+
+        var i=3;
+        while(i<=10){
+            alert(i);
+            i+=3;
+        }
+
+        var i=3;
+        do{
+            alert(i);
+            i+=3;
+        }
+        while(i<=10);
+
+        // TASK - 3
+        // PRINT LAST LETTER OF A STRING
+        var a =prompt("Enter a name");
+        for(i=a.length-1; i<=a.length-1;i++){
+            alert(a[i]);
+        }
+
+        var a = prompt("Enter a name");
+        var i=a.length-1;
+        while(i<=a.length-1){
+            alert(a[i]);
+            i++;
+        }
+
+        var a = prompt("Enter a name");
+        var i=a.length-1;
+        do{
+            alert(a[i])
+            i++;
+        }
+        while(i<=a.length-1);
+
+        // TASK - 4
+        // PRINT NUMBERS 5 T0 8
+        for(var i=0;i<=10;i++){
+            if(i>=5 && i<=8){
+                alert(i);
+            }
+        }
+       
+        // TASK-5
+        // PRINT A STRING IN REVERSE
+        var a = prompt("Enter a name");
+        for(i=a.length-1; i>=0; i--){
+            console.log(a[i]);
+        } 
+    </script>
+</body>
+</html>
